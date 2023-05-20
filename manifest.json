@@ -1,0 +1,16 @@
+{
+  "manifest_version": 3,
+
+  "name": "Censorship in India 1.0",
+  "author": "Aatreyi Dutt",
+  "version": "1.0",
+  "description": "Simulating censorship in India according to China's standards. New Geography of the Information Age, Spring 2023.",
+  "permissions": [
+    "activeTab"
+  ],
+  "content_scripts": [{
+    "js": ["content.js"],
+    "css": ["styles.css"],
+    "matches": ["<all_urls>"]
+  }]
+}
