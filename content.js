@@ -1,5 +1,5 @@
 // dictionary of words censored by this web extension; reasons for its censorship are given in brief in comments
-// note that any censor words/phrases cannot be Googled when using this extension (limiting access to censored content yay)
+// note that any censor words/phrases cannot be Googled when using this extension (limiting access to censored content)
 // hint: try Googling "what happened in Gujarat in 2002"
 var censor = {
     "2002 Gujarat riots" : "[REDACTED]",  // controversy, allegedly enabled by Modi govt
